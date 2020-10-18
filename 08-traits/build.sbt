@@ -1,4 +1,4 @@
-name := "05-classes"
+name := "08-traits"
 
 version := "0.1"
 
