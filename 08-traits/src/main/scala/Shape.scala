@@ -1,4 +1,8 @@
 trait Shape {
 
-  def sides(): Int
+  def area(): Int
+
+  // another one
+  // def circumference() : Int
+
 }

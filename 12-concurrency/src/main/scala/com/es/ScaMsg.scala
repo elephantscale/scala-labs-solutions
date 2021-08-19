@@ -4,7 +4,7 @@ import akka.actor._
 
 class Server extends Actor {
   
-	var clients = List[(String, ActorRef)]();
+    var clients = List[(String, ActorRef)]();
     
     def receive = {
       case Connect(username) => {

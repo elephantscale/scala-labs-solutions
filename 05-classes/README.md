@@ -1,9 +1,5 @@
 <link rel='stylesheet' href='../assets/css/main.css'/>
 
-[<< back to main index](../README.md)
-
----
-
 # Lab 5: Classes
 
 In this section, we will learn how to define classes in Scala.
@@ -34,3 +30,11 @@ class Triangle (a: Int, b: Int, c:Int ) {
     }
 }
 ```
+
+## Step 4 - Create a new class `Square`
+
+This will only take one parameter: `size`
+
+Create appropriate `toString` method
+
+Also create a function `getSize` that returns the size attribute

@@ -1,4 +1,0 @@
-package x
-
-class MyVendingMachineScalaTest {
-}

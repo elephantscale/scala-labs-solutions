@@ -3,11 +3,13 @@ object Main {
     val t1 = new Triangle(1,2,3)
     println (t1)
 
-    val t2 = new Triangle(10)
-    println (t2)
+    // TODO-1: Create another triangle and print out
+    // your code goes here
 
-    val s1 = new Square(100)
-    println (s1)
-    println ("square size : " + s1.getSize)
+    // TODO-2: Create a square and print
+    // your code goes here
+
+    // TODO-3: create a square and get the size
+    // your code goes here
   }
 }

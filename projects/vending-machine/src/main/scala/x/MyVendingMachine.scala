@@ -18,11 +18,15 @@ class MyVendingMachine extends VendingMachine {
   }
 
   override def checkPrice(item: String): Int = {
+    0  // default price
+
+    /*
     val product = inventory get item
     product match {
-      case Some(product) => product.price
-      case None => -1
+      case Some(product) => // TODO : return product.prince
+      case None => // TODO : return -1
     }
+     */
   }
 
   override def buyItem(item: String, money: Int): ReturnCode = {
@@ -30,16 +34,13 @@ class MyVendingMachine extends VendingMachine {
     product match {
       case Some(product) =>
         println (s"MVM : buyItem : $product , with money=$money")
+        // for now return success
+        Success
 
-        if (product.stock > 0) {
-          if (money >= product.price) {
-            product.stock -= 1  // decrase stock by one
-            Success
-          } else
-            NotEnoughMoney
-        }
-        else
-          SoldOut
+        // TODO : add some checks
+        // for example, check if the money is enough to buy
+        // And check if the Product is in stock
+        // and don't forget to decrease the stock when purchased
 
       case None =>
         ProductNotFound

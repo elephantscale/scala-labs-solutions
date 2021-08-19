@@ -15,9 +15,13 @@ object Main extends App {
     val c2 = system.actorOf(Props(new Client("Mark", server)))
     val c3 = system.actorOf(Props(new Client("Sujee", server)))
     
-    c2 ! Send("Hello")
+    // TODO: Broadcast a message from Mark, saying "Hello"
     
-    c3 ! Disconnect
+    c2.??? 
+    
+    // TODO: Have sujee "Disconnect" from the chat
+    c3 ???
+    
     
   }
 

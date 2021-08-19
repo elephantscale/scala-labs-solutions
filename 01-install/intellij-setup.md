@@ -5,4 +5,4 @@
 Intelli J Setup
 ===============
 
-## STEP 1 : Download Intelli J
+## STEP 1: Download and install IntelliJ

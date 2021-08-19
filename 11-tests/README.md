@@ -1,9 +1,6 @@
-<link rel='stylesheet' href='../../assets/css/main.css'/>
+<link rel='stylesheet' href='../assets/css/main.css'/>
 
-[<< back to main index](../../README.md) 
-
-Lab 1.6 : Write Unit Tests Using SPECS2 Framework
-===================================
+# Lab 11.1 : Write Unit Tests Using SPECS2 Framework
 
 ### Overview
 Write Unit Tests
@@ -29,7 +26,7 @@ Project directory is : `~/spark-labs/01-scala/vending-machine`
 
 Here is the project hierarchy:
 
-<img src="../../assets/images/1.5b.png" style="border: 5px solid grey ; max-width:100%;" />
+<img src="../assets/images/1.5b.png" style="border: 5px solid grey ; max-width:100%;" />
 
 
 ## Step 2 : Open Project in IntelliJ
@@ -40,13 +37,13 @@ Here is the project hierarchy:
 
 **See screen shots below**
 
-<img src="../../assets/images/1.5c.png" style="border: 5px solid grey ; max-width:100%;" />
-<img src="../../assets/images/1.5d.png" style="border: 5px solid grey ; max-width:100%;" />
-<img src="../../assets/images/1.5e.png" style="border: 5px solid grey ; max-width:100%;" />
+<img src="../assets/images/1.5c.png" style="border: 5px solid grey ; max-width:100%;" />
+<img src="../assets/images/1.5d.png" style="border: 5px solid grey ; max-width:100%;" />
+<img src="../assets/images/1.5e.png" style="border: 5px solid grey ; max-width:100%;" />
 
 Final project should look like this:
 
-<img src="../../assets/images/1.5f.png" style="border: 5px solid grey ; max-width:100%;" />
+<img src="../assets/images/1.5f.png" style="border: 5px solid grey ; max-width:100%;" />
 
 ## Step 3 : VendingMachine Test
 * Inspect  the file `src/test/scala/x/VendingMachineTest.scala`.  
@@ -97,7 +94,7 @@ You would enter SBT prompt like follows:
 ### Quick Tip: Arrange SBT & Edit windows
 Here is a tip to arrange terminal windows.  
 
-<img src="../../assets/images/1.5a.png" style="border: 5px solid grey ; max-width:100%;" />
+<img src="../assets/images/1.5a.png" style="border: 5px solid grey ; max-width:100%;" />
 
 
 
