@@ -201,8 +201,3 @@ We can run this jar file using `scala`
     Template applied in ./hello
 ```
 
-### To create a new project with the `assembly` target in it
-
-```bash
-    sbt new https://github.com/holdenk/sparkProjectTemplate.g8
-```
