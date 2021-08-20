@@ -1,3 +1,6 @@
+import shapes.Triangle
+import shapes.Square
+
 object Main {
   def main(args: Array[String]): Unit = {
     val t1 = new Triangle(1,2,3)
@@ -12,5 +15,9 @@ object Main {
 
     // TODO-3: create a square and get the size
     // your code goes here
+
+    val s1 = new Square(4, 6, 8, 1)
+
+    println(s1)
   }
 }
