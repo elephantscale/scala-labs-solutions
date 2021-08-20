@@ -5,7 +5,8 @@ object Main {
 
     // TODO-1: Create another triangle and print out
     // your code goes here
-
+    val t2 = new Triangle(4,5,6)
+    println (t2)
     // TODO-2: Create a square and print
     // your code goes here
 
