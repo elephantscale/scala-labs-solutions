@@ -14,7 +14,8 @@ object TestTimer {
 
     println(timeit { 1 + 2 })
 
-    val x = 1 to 1000000
-    println(MyTimer.timeit { x.map(x => x * x) })
+    val x = 1 to 10000000
+    val answer = MyTimer.timeit { x.map(x => x * x) }
+    //println(answer)
   }
 }
