@@ -1,10 +1,12 @@
-class Square(size:Int ) extends Shape {
+class Square(a: Int) extends Shape {
 
   override def toString: String = {
-    return "[Square (size=" + size + ")]"
+    return "[Square (a=" + a + ")]"
   }
 
-  def getSize() = size
+  override def area(): Double = {
+    return a * a
+  }
 
 }
 
