@@ -10,6 +10,11 @@ object Main {
     // your code goes here
     val t2 = new Triangle(4,5,6)
     println (t2)
+
+    // Experiment
+    val t3 = new Triangle(1)
+    println (t3)
+
     // TODO-2: Create a square and print
     // your code goes here
 
