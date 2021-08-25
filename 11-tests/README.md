@@ -8,6 +8,10 @@ Write Unit Tests
 ### Depends On 
 None
 
+### Reference
+
+[Scala test doc](https://docs.scala-lang.org/getting-started/intellij-track/testing-scala-in-intellij-with-scalatest.html)
+
 ### Run time
 40 mins
 
