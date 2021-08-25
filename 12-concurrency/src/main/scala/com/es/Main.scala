@@ -2,9 +2,8 @@ package com.es
 
 import akka.actor._
 
-object Main extends App {
-  
-  override def main(args: Array[String]) {
+object Main  extends App  {
+
     val system = ActorSystem("System")
     
     val server = system.actorOf(Props[Server])
@@ -17,12 +16,8 @@ object Main extends App {
     
     // TODO: Broadcast a message from Mark, saying "Hello"
     
-    c2.??? 
+    c2 ! "Hello"
     
     // TODO: Have sujee "Disconnect" from the chat
-    c3 ???
-    
-    
-  }
-
+    c3 ! PoisonPill
 }
