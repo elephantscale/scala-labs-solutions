@@ -10,7 +10,7 @@ object TestTimer {
 
   def main(args: Array[String]): Unit = {
     val a = MyTimer.timeit(sleepy(300))
-    println ("result 1 : " + a)
+    println ("result 1: " + a)
 
     println(timeit { 1 + 2 })
 
