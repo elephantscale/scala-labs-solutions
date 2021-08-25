@@ -8,7 +8,7 @@ object MyTimer {
     val result = block    // call-by-name, save the result
     // TODO-2  : mark the time again
     val t2 = System.nanoTime()
-    println("### timeit() : Elapsed time:  %,d  ns".format( (t2 - t1) /1000000 ) )
+    println("### timeit() : Elapsed time:  %,d  ms".format( (t2 - t1) / 1000 ) )
 
     result // return the result
   }
