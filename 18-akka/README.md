@@ -36,3 +36,5 @@ sbt builds the project and runs Hello World
 * Strong isolation principles — Unlike regular objects in Scala, an Actor does not have a public API in terms of methods that you can invoke. Instead, its public API is defined through messages that the actor handles. This prevents any sharing of state between Actors; the only way to observe another actor’s state is by sending it a message asking for it.
 * Location transparency — The system constructs Actors from a factory and returns references to the instances. Because location doesn’t matter, Actor instances can start, stop, move, and restart to scale up and down as well as recover from unexpected failures.
 * Lightweight — Each instance consumes only a few hundred bytes, which realistically allows millions of concurrent Actors to exist in a single application.
+
+More: https://developer.lightbend.com/guides/akka-quickstart-scala/?_ga=2.116669519.877915059.1629869258-2110812733.1629869258
