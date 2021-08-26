@@ -1,12 +1,10 @@
 package x
 
-//import org.specs2.mutable.Specification
-
 import org.scalatest.FunSpec
 
 class MyVendingMachineTest extends FunSpec {
 
-  describe("MyVendingMachine::double") {
+  describe("MyVendingMachine::operations") {
     it("should accept initial inventory") {
       val result = new MyVendingMachine().addStockItem("candy", 2, 5)
       assert(result == 5)
@@ -16,9 +14,10 @@ class MyVendingMachineTest extends FunSpec {
       machine.deposit(10)
       machine.deposit(10)
       assert(machine.balance() == 20)
-
     }
   }
+
+
 //
 //  "check item price" in {
 //    val machine = new MyVendingMachine
