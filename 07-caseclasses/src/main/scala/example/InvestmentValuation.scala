@@ -29,7 +29,13 @@ object InvestmentValuation   {
       println("Be careful with " + amount + " of " + name)
       amount * 5000
     // TODO-1 : Add mutualFund case and return amount * 0.9
+    case MutualFund(name, amount, "lowrisk") =>
+      println("Considering lowrisk mutual fund investment into " + name + ", amount of " +  amount)
+      amount * .9
     // TODO-2 : for 'highrisk' mutual fund, return amount * 0.5
+    case MutualFund(name, amount, "highrisk") =>
+      println("Considering highrisk mutual fund investment into " + name + ", amount of " +  amount)
+      amount * .5
     case _ =>
       println("I will consider any investment")
       1
