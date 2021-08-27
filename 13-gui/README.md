@@ -22,7 +22,7 @@
 * Clone a sample project. In a new directory, run
 
 
-    https://github.com/scalafx/ScalaFX-Tutorials.git
+    git clone https://github.com/scalafx/ScalaFX-Tutorials.git
 
     `cd` hello-sbt
 

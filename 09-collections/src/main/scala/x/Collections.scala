@@ -17,7 +17,8 @@ object Collections {
     // Hint : Math.pow()
     val xsq1 = x.map(Math.pow(_, 2))
     println(xsq1)
-    val even = x.filter ( a =>   a%2 == 0)  
+    val even = x.filter ( a =>   a%2 == 0)
+    println(even)
     // try a shorter version
     val even1 = x.filter(_ % 2 == 0)
     println(even1)
