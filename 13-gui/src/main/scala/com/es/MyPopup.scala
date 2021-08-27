@@ -1,13 +1,14 @@
 package com.es
 
 import scalafx.Includes._
+import scalafx.Includes._
 import scalafx.application.JFXApp
 import scalafx.scene.Scene
 import scalafx.scene.paint.Color._
 import scalafx.scene.shape.Rectangle
 
-object MyPopup extends JFXApp {
-    stage = new JFXApp.PrimaryStage {
+object HelloStageDemo extends JFXApp {
+  stage = new JFXApp.PrimaryStage {
     title.value = "Hello Stage"
     width = 600
     height = 450
@@ -18,7 +19,7 @@ object MyPopup extends JFXApp {
         y = 40
         width = 100
         height = 100
-        fill <== when(hover) choose Green otherwise Red
+        fill <== when (hover) choose Green otherwise Red
       }
     }
   }
