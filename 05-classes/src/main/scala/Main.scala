@@ -1,4 +1,4 @@
-import shapes.{Polygon, Triangle}
+import shapes.{Square, Triangle}
 
 object Main {
   def main(args: Array[String]): Unit = {
@@ -11,16 +11,10 @@ object Main {
     println (t2)
 
     // Experiment
-//    val t3 = new Triangle(1)
-//    println (t3)
+    val t3 = new Triangle(1)
+    println (t3)
 
-    // TODO-2: Create a polygon and print
-    // your code goes here
-
-    // TODO-3: create a square and get the size
-    // your code goes here
-
-    val s1 = new Polygon(4, 6, 8, 1)
+    val s1 = new Square(4)
     println(s1)
 
   }
