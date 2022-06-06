@@ -52,7 +52,7 @@ Verify the *scala version* and *java version* printed out.
 ```bash
 $ ~/apps/scala/bin/scala 
 
-Welcome to Scala 2.13.3 (OpenJDK 64-Bit Server VM, Java 11.0.8).
+Welcome to Scala 2.13.8 (OpenJDK 64-Bit Server VM, Java 11.0.8).
 Type in expressions for evaluation. Or try :help.
 
 scala> 
@@ -73,7 +73,7 @@ Verify sbt by using `sbt --version` command on terminal
 ```bash
     $   sbt --version
     # output:
-    #  sbt script version: 1.4.0
+    #  sbt script version: 1.6.2
 ```
 
 ## STEP 4: Install Intellij
